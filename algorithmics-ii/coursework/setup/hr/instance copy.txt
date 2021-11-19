@@ -1,0 +1,82 @@
+20
+5
+1: 5x 2 1
+2: 4x 5
+3: 4x
+4: 3x 5
+5: 2x 5
+6: 2x 4 3
+7: 5o
+8: 4o
+9: 5x 4
+10: 3x 2
+11: 5o 4x
+12: 4x
+13: 5x
+14: 5o 2x 4
+15: 5o 3x
+16: 3x 2
+17: 4o
+18: 5o 2x
+19: 3o 4o
+20: 4o 5x 2
+1: 0/4: 1
+2: 4/4: 16 20 10 6x 5x 14x 18x 1
+3: 4/4: 15x 4x 10x 6 16x 19
+4: 4/4: 11x 3x 19 2x 12x 6 14 20 8 17 9
+5: 4/4: 13x 20x 1x 9x 14 18 4 5 15 2 11 7
+
+### TRACE
+(d,h)
+----start
+(1,5)
+(2,4)
+(3,4)
+(4,3)
+(5,2)
+(6,2)
+(7,5)xxx
+(8,4)xxx
+(9,5)
+(10,3)
+(11,5)xxx
+(12,4)
+(13,5)
+(14,5)xxx
+5 rejects 15
+(16,3)
+4 rejects 17
+5 rejects 18
+(19,3)xxx
+(20,4)xxx
+7 unmatched
+8 unmatched
+(11,4)
+(15,3)
+17 unmatched
+(18,2)
+19 unmatched
+(20,5)
+(14,2)
+
+### FINAL
+Doctor 1 matches hospital 5
+Doctor 2 matches hospital 4
+Doctor 3 matches hospital 4
+Doctor 4 matches hospital 3
+Doctor 5 matches hospital 2
+Doctor 6 matches hospital 2
+Doctor 7 unmatched
+Doctor 8 unmatched
+Doctor 9 matches hospital 5
+Doctor 10 matches hospital 3
+Doctor 11 matches hospital 4
+Doctor 12 matches hospital 4
+Doctor 13 matches hospital 5
+Doctor 14 matches hospital 2
+Doctor 15 matches hospital 3
+Doctor 16 matches hospital 3
+Doctor 17 unmatched
+Doctor 18 matches hospital 2
+Doctor 19 unmatched
+Doctor 20 matches hospital 5
